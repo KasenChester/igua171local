@@ -1,77 +1,103 @@
 /* Main body */
+/* Base Styles */
 body {
-font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-background-color: #f4f4f4;
-color: #333;
-margin: 0;
-padding: 0;
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+  background-position: center; /* or center center */
+  background-attachment: fixed; /* this is the default — background scrolls with content */
+  background-size: contain; /* or cover, or a specific size like 200px auto */
+  
 }
+  
+  
+  
+  
+  /*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+
 
 /* Header */
 header {
-background-color: #0a2342;
-color: white;
-padding: 20px;
-text-align: center;
+  background-color: #0a2342;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+.logo {
+  width: 75px;
+  height: auto;
+  background-color:#0a2342;
+  color: #0a2342;
+  
 }
 
 header h1 {
-margin: 0;
-font-size: 2.5rem;
+  margin: 0;
+  font-size: 2.5rem;
 }
 
 /* Navigation */
 nav {
-display: flex;
-justify-content: center;
-background-color: #0a2342;
+  display: flex;
+  justify-content: center;
+  background-color: #0a2342;
 }
 
 nav a {
-color: white;
-padding: 15px 20px;
-text-decoration: none;
-font-weight: bold;
+  color: white;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
-background-color: #1d3557;
+  background-color: #1d3557;
 }
 
 /* Hero Section */
 .hero {
-background-image: url('/images/hero-banner.jpg');
-background-size: cover;
-background-position: center;
-color: white;
-text-align: center;
-padding: 100px 20px;
+  background-image: url('/images/hero-banner.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
 }
 
 .hero h2 {
-font-size: 3rem;
-margin: 0;
+  font-size: 3rem;
+  margin: 0;
+  color: #818386;
 }
 
 /* Main Content */
 main {
-max-width: 1200px;
-margin: 20px auto;
-padding: 20px;
-background-color: white;
-box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
 footer {
-background-color: #0a2342;
-color: white;
-text-align: center;
-padding: 15px;
-margin-top: 40px;
+  background-color: #0a2342;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
 }
 
 footer a {
-color: #ffd700;
-text-decoration: none;
+  color: #ffd700;
+  text-decoration: none;
 }

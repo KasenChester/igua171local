@@ -44,6 +44,26 @@ main {
   padding: 2rem;
 }
 
+ .image-row {
+      display: flex;
+      gap: 20px; /* optional spacing between images */
+      justify-content: center; /* optional: center the row */
+    }
+    .image-row img {
+      width: 170px; /* adjust as needed */
+      height: 175px;
+    }
+
+    figure {
+      text-align: center; /* center the caption */
+      margin: 0; /* optional spacing around the figure */
+    }
+
+    figcaption {
+      font-weight: bold; /* make the caption bold */
+      /* adjust as needed */
+margin-top: 8px;
+    }
 /* Footer */
 footer {
   background-color: #0a2342;

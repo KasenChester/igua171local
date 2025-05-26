@@ -54,3 +54,28 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+.portrait-row {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+figure {
+  text-align: center;
+}
+
+.portrait {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #555;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
